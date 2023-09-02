@@ -51,7 +51,7 @@ body
 {
     font-size: 1em;
     color: #fff;
-    background: #024a73;
+    background: #d21515;
     display: inline-block;
     padding: 10px 30px;
     margin-top: 20px;
@@ -89,6 +89,7 @@ header .logo span
 }
 header .navigation
 {
+    text-align: right;
     position: relative;
     display: flex;
 }
@@ -102,4 +103,70 @@ header .navigation li a
     text-decoration: none;
     color: #fff;
     font-weight: 300;
+}
+.body{
+    position: relative;
+    background-color: #f8f6b8;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+.tour{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.tour1{
+    font: 1.5em serif;
+}
+.fcontainer{
+    display: flex;
+    justify-content: center;
+}
+.fitem{
+    margin: 45px;
+    width: 220px;
+    height: 220px;
+    text-align: center;
+    font: bold;
+    font: 1.5em sans-serif;
+    color: #fff;
+}
+.m1{
+    background: url(istockphoto-636036958-170667a.webp);
+    background-size: cover;
+    opacity: 80%;
+}
+.g1{
+    background: url(TAL-casa-palopo-pool-ANTIGUAGT0823-86740e58bda6499eb516f344612d21d8.jpg);
+    background-size: cover;
+    opacity: 80%;
+}
+.c1{
+    background: url(download.jpeg);
+    background-size: cover;
+    opacity: 80%;   
+}
+.last{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    text-align: center;
+    background: url(151005.jpg);
+    opacity: 90%;
+    background-size: cover;
+    color: #fff;
+}
+.tr1{
+    font: 2em sans-serif;
+}
+.tr2{
+    font: 1em sans-serif;
+}
+.page{
+    text-align: center;
+    margin-top: 50%;
+    margin-bottom: 10%;
+    display: flex;
+    font-size: 1em;
 }
